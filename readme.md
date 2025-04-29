@@ -21,13 +21,13 @@ To run the tool, navigate to the directory where you want to download the conten
 - **To download content only:**
 
   ```bash
-  sfm-cb-d
+  sfmc-cb-d
   ```
 
-- **To download content and create a Git backup (if you've implemented the `--git-sync` argument in your `sfm-cb-d.js` script):**
+- **To download content and create a Git backup (if you've implemented the `--git-sync` argument in your `sfmc-cb-d.js` script):**
 
   ```bash
-  sfm-cb-d --git-sync
+  sfmc-cb-d --git-sync
   ```
 
 The tool will:
@@ -80,7 +80,7 @@ The tool uses two JSON configuration files: `config.json` and `auth.json`.
 
 ### 1. `config.json`
 
-This file specifies the SFMC folders to download and the local directories to save the assets. It should be placed in the directory from which you will run the `sfm-cb-d.js` script.
+This file specifies the SFMC folders to download and the local directories to save the assets. It should be placed in the directory from which you will run the `sfmc-cb-d.js` script.
 
 ```json
 {
@@ -101,7 +101,7 @@ This file specifies the SFMC folders to download and the local directories to sa
 - **`auth_file`:** (Required, string) The **absolute** path to the `auth.json` file (see below). This file should be stored in a secure location on your server, outside of the project directory.
 - **`contents`:** (Required, array) An array of objects, where each object defines a folder to download.
   - **`folder_id`:** (Required, number) The ID of the folder in SFMC Content Builder.
-  - **`local_path`:** (Required, string) The **relative** path to the local directory where the downloaded assets will be saved. This path is relative to the current working directory where you run the `sfm-cb-d` command.
+  - **`local_path`:** (Required, string) The **relative** path to the local directory where the downloaded assets will be saved. This path is relative to the current working directory where you run the `sfmc-cb-d` command.
 
 ### 2. `auth.json`
 
@@ -123,7 +123,7 @@ This file contains your SFMC API credentials. **Keep this file secure and do not
 - **`client_id`:** (Required, string) Your SFMC API client ID. You can generate this ID in the Installed Packages section of your SFMC account.
 - **`client_secret`:** (Required, string) Your SFMC API client secret. This is generated along with the client ID and should be kept confidential.
 
-**Important:** Ensure that the `auth_url` is correct for your SFMC stack. The `config.json` file should be placed in the same directory from which you intend to run the `sfm-cb-d.js` script.
+**Important:** Ensure that the `auth_url` is correct for your SFMC stack. The `config.json` file should be placed in the same directory from which you intend to run the `sfmc-cb-d.js` script.
 
 ### Obtaining Folder IDs from SFMC Content Builder
 
@@ -155,19 +155,19 @@ This tool can automate downloading content from SFMC. You can also schedule it t
   - **To download content only (without Git backup):**
 
       ```cron
-      0 3 * * * sfm-cb-d > debug.log 2>&1
+      0 3 * * * sfmc-cb-d > debug.log 2>&1
       ```
 
   - **To download content and create a Git backup:**
 
       ```cron
-      0 3 * * * sfm-cb-d --git-sync > debug.log 2>&1
+      0 3 * * * sfmc-cb-d --git-sync > debug.log 2>&1
       ```
 
   **Explanation:**
 
   - `0 3 * * *`: This specifies the schedule (minute, hour, day of month, month, day of week). In this case, it means 3:00 AM every day. Use a cron expression generator (like [crontab.guru](https://crontab.guru/)) to create a schedule that meets your needs.
-  - `sfm-cb-d`: This assumes you have installed the `sfm-cb-d.js` script globally using `npm install -g`. This calls the script globally.
+  - `sfmc-cb-d`: This assumes you have installed the `sfmc-cb-d.js` script globally using `npm install -g`. This calls the script globally.
   - `--git-sync`: This argument enables the Git backup feature.
   - `> debug.log 2>&1`: This redirects the output of the script to a log file named `debug.log` in the **current working directory**. This is important for monitoring the script's execution and identifying any errors. **Only the latest log will be keeped, as the file will be overwritten each time the script runs.**
 
@@ -176,10 +176,10 @@ This tool can automate downloading content from SFMC. You can also schedule it t
 - **Global Installation:** The cron job assumes the tool is installed globally (e.g., using `npm install -g`).
 - **Git Synchronization Argument:** The `--git-sync` argument enables the Git backup feature.
 - **Conditional Git Operations:** If you use the `--git-sync` argument, ensure that the user account running the cron job has properly configured Git credentials (username, email, and SSH key or password) to avoid authentication issues during the `git pull` and `git push` operations. **The script will also check if the current directory is a Git repository before attempting any Git operations.**
-- **Branch Name:** The Git operations within the `sfm-cb-d.js` script should be configured to use the correct branch name (e.g., `main`).
+- **Branch Name:** The Git operations within the `sfmc-cb-d.js` script should be configured to use the correct branch name (e.g., `main`).
 - **Logging:** Always redirect the output of your cron jobs to a log file. This will help you troubleshoot any problems.
 - **Log File Location:** The log file (`debug.log`) will be created in the **current working directory** from which the cron job is executed.
-- **Error Handling:** Consider adding robust error handling to your `sfm-cb-d.js` script to gracefully handle any errors that may occur during execution, including Git-related errors.
+- **Error Handling:** Consider adding robust error handling to your `sfmc-cb-d.js` script to gracefully handle any errors that may occur during execution, including Git-related errors.
 - **Permissions:** Make sure the user account that runs the cron job has the necessary permissions to execute the script, write to the log file, and perform Git operations (if using `--git-sync`).
 
 ## Additional Setup (Windows/Mac Line Endings)
@@ -210,7 +210,7 @@ These commands handle line endings consistently across different operating syste
 
 - **"Invalid configuration"**: Check your `config.json` and `auth.json` files for syntax errors or missing required properties. The tool provides detailed error messages to help you identify the problem.
 - **"SFMC API Error"**: Verify that your SFMC API credentials are correct and that your API integration has the necessary permissions.
-- **"Permission denied"**: Make sure the `sfm-cb-d.js` file is executable using `chmod +x sfm-cb-d.js`. Also, ensure the user running the script has write permissions to the `local_path` directories defined in `config.json`.
+- **"Permission denied"**: Make sure the `sfmc-cb-d.js` file is executable using `chmod +x sfmc-cb-d.js`. Also, ensure the user running the script has write permissions to the `local_path` directories defined in `config.json`.
 - **"Not a git repository"**: If you are using the `--git-sync` option, ensure that you are running the command from within a valid Git repository.
 
 ## Contributing
