@@ -234,7 +234,7 @@ async function init() {
    try {
      utils.logger.info("Performing Git add, commit, and push...");
      await execAsync('git add .', { cwd });
-     await execAsync('git commit -m "Daily SFMC Content Update"', { cwd });
+     await execAsync('git commit -m "Automatic SFMC Content Update"', { cwd });
      await execAsync('git push origin main', { cwd }); // Adjust branch name if needed
      utils.logger.info("Git add, commit, and push completed.");
    } catch (error) {
