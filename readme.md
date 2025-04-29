@@ -84,17 +84,17 @@ This file specifies the SFMC folders to download and the local directories to sa
 
 ```json
 {
-"auth_file": "/path/to/secure/location/auth.json",
-"contents": [
-  {
-    "folder_id": 33743,
-    "local_path": "./my-sfmc-content"
-  },
-  {
-    "folder_id": 12345,
-    "local_path": "./another-sfmc-folder"
-  }
-]
+    "auth_file": "/path/to/secure/location/auth.json",
+    "contents": [
+        {
+            "folder_id": 33743,
+            "local_path": "./my-sfmc-content"
+        },
+        {
+            "folder_id": 12345,
+            "local_path": "./another-sfmc-folder"
+        }
+    ]
 }
 ```
 
@@ -109,11 +109,11 @@ This file contains your SFMC API credentials. **Keep this file secure and do not
 
 ```json
 {
-"auth_url": "https://your-sfmc-instance.auth.marketingcloudapis.com/",
-"account_id": 123456789,
-"bu_name": "Your Business Unit Name",
-"client_id": "your-client-id",
-"client_secret": "your-client-secret"
+    "auth_url": "https://your-sfmc-instance.auth.marketingcloudapis.com/",
+    "account_id": 123456789,
+    "bu_name": "Your Business Unit Name",
+    "client_id": "your-client-id",
+    "client_secret": "your-client-secret"
 }
 ```
 
