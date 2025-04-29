@@ -1,0 +1,32 @@
+{
+  "name": "t-cli-sfmc-cb-downloader",
+  "version": "1.0.0",
+  "description": "A command-line tool to automate downloading and backing up content assets from SFMC Content Builder.",
+  "main": "cbd.js",
+  "type": "module",
+  "bin": {
+    "cbd": "cbd.js"
+  },
+  "scripts": {
+    "cbd": "node cbd.js",
+    "cbd-git": "node cbd.js --git-sync"
+  },
+  "author": "Lucas Dasso",
+  "license": "MIT",
+  "dependencies": {
+    "pino": "^9.3.2",
+    "pino-pretty": "^11.2.2",
+    "sfmc-sdk": "^2.1.2"
+  },
+  "keywords": [
+    "sfmc",
+    "content builder",
+    "downloader",
+    "automation",
+    "marketing cloud"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url"
+  }
+}

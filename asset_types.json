@@ -1,0 +1,1072 @@
+{
+  "16": {
+    "id": 16,
+    "ext": "ai",
+    "type": "image"
+  },
+  "17": {
+    "id": 17,
+    "ext": "psd",
+    "type": "image"
+  },
+  "18": {
+    "id": 18,
+    "ext": "pdd",
+    "type": "image"
+  },
+  "19": {
+    "id": 19,
+    "ext": "eps",
+    "type": "image"
+  },
+  "20": {
+    "id": 20,
+    "ext": "gif",
+    "type": "image"
+  },
+  "21": {
+    "id": 21,
+    "ext": "jpe",
+    "type": "image"
+  },
+  "22": {
+    "id": 22,
+    "ext": "jpeg",
+    "type": "image"
+  },
+  "23": {
+    "id": 23,
+    "ext": "jpg",
+    "type": "image"
+  },
+  "24": {
+    "id": 24,
+    "ext": "jp2",
+    "type": "image"
+  },
+  "25": {
+    "id": 25,
+    "ext": "jpx",
+    "type": "image"
+  },
+  "26": {
+    "id": 26,
+    "ext": "pict",
+    "type": "image"
+  },
+  "27": {
+    "id": 27,
+    "ext": "pct",
+    "type": "image"
+  },
+  "28": {
+    "id": 28,
+    "ext": "png",
+    "type": "image"
+  },
+  "29": {
+    "id": 29,
+    "ext": "tif",
+    "type": "image"
+  },
+  "30": {
+    "id": 30,
+    "ext": "tiff",
+    "type": "image"
+  },
+  "31": {
+    "id": 31,
+    "ext": "tga",
+    "type": "image"
+  },
+  "32": {
+    "id": 32,
+    "ext": "bmp",
+    "type": "image"
+  },
+  "33": {
+    "id": 33,
+    "ext": "wmf",
+    "type": "image"
+  },
+  "34": {
+    "id": 34,
+    "ext": "vsd",
+    "type": "image"
+  },
+  "35": {
+    "id": 35,
+    "ext": "pnm",
+    "type": "image"
+  },
+  "36": {
+    "id": 36,
+    "ext": "pgm",
+    "type": "image"
+  },
+  "37": {
+    "id": 37,
+    "ext": "pbm",
+    "type": "image"
+  },
+  "38": {
+    "id": 38,
+    "ext": "ppm",
+    "type": "image"
+  },
+  "39": {
+    "id": 39,
+    "ext": "svg",
+    "type": "image"
+  },
+  "40": {
+    "id": 40,
+    "ext": "3fr",
+    "type": "rawimage"
+  },
+  "41": {
+    "id": 41,
+    "ext": "ari",
+    "type": "rawimage"
+  },
+  "42": {
+    "id": 42,
+    "ext": "arw",
+    "type": "rawimage"
+  },
+  "43": {
+    "id": 43,
+    "ext": "bay",
+    "type": "rawimage"
+  },
+  "44": {
+    "id": 44,
+    "ext": "cap",
+    "type": "rawimage"
+  },
+  "45": {
+    "id": 45,
+    "ext": "crw",
+    "type": "rawimage"
+  },
+  "46": {
+    "id": 46,
+    "ext": "cr2",
+    "type": "rawimage"
+  },
+  "47": {
+    "id": 47,
+    "ext": "dcr",
+    "type": "rawimage"
+  },
+  "48": {
+    "id": 48,
+    "ext": "dcs",
+    "type": "rawimage"
+  },
+  "49": {
+    "id": 49,
+    "ext": "dng",
+    "type": "rawimage"
+  },
+  "50": {
+    "id": 50,
+    "ext": "drf",
+    "type": "rawimage"
+  },
+  "51": {
+    "id": 51,
+    "ext": "eip",
+    "type": "rawimage"
+  },
+  "52": {
+    "id": 52,
+    "ext": "erf",
+    "type": "rawimage"
+  },
+  "53": {
+    "id": 53,
+    "ext": "fff",
+    "type": "rawimage"
+  },
+  "54": {
+    "id": 54,
+    "ext": "iiq",
+    "type": "rawimage"
+  },
+  "55": {
+    "id": 55,
+    "ext": "k25",
+    "type": "rawimage"
+  },
+  "56": {
+    "id": 56,
+    "ext": "kdc",
+    "type": "rawimage"
+  },
+  "57": {
+    "id": 57,
+    "ext": "mef",
+    "type": "rawimage"
+  },
+  "58": {
+    "id": 58,
+    "ext": "mos",
+    "type": "rawimage"
+  },
+  "59": {
+    "id": 59,
+    "ext": "mrw",
+    "type": "rawimage"
+  },
+  "60": {
+    "id": 60,
+    "ext": "nef",
+    "type": "rawimage"
+  },
+  "61": {
+    "id": 61,
+    "ext": "nrw",
+    "type": "rawimage"
+  },
+  "62": {
+    "id": 62,
+    "ext": "orf",
+    "type": "rawimage"
+  },
+  "63": {
+    "id": 63,
+    "ext": "pef",
+    "type": "rawimage"
+  },
+  "64": {
+    "id": 64,
+    "ext": "ptx",
+    "type": "rawimage"
+  },
+  "65": {
+    "id": 65,
+    "ext": "pxn",
+    "type": "rawimage"
+  },
+  "66": {
+    "id": 66,
+    "ext": "raf",
+    "type": "rawimage"
+  },
+  "67": {
+    "id": 67,
+    "ext": "raw",
+    "type": "rawimage"
+  },
+  "68": {
+    "id": 68,
+    "ext": "rw2",
+    "type": "rawimage"
+  },
+  "69": {
+    "id": 69,
+    "ext": "rwl",
+    "type": "rawimage"
+  },
+  "70": {
+    "id": 70,
+    "ext": "rwz",
+    "type": "rawimage"
+  },
+  "71": {
+    "id": 71,
+    "ext": "srf",
+    "type": "rawimage"
+  },
+  "72": {
+    "id": 72,
+    "ext": "sr2",
+    "type": "rawimage"
+  },
+  "73": {
+    "id": 73,
+    "ext": "srw",
+    "type": "rawimage"
+  },
+  "74": {
+    "id": 74,
+    "ext": "x3f",
+    "type": "rawimage"
+  },
+  "75": {
+    "id": 75,
+    "ext": "3gp",
+    "type": "video"
+  },
+  "76": {
+    "id": 76,
+    "ext": "3gpp",
+    "type": "video"
+  },
+  "77": {
+    "id": 77,
+    "ext": "3g2",
+    "type": "video"
+  },
+  "78": {
+    "id": 78,
+    "ext": "3gp2",
+    "type": "video"
+  },
+  "79": {
+    "id": 79,
+    "ext": "asf",
+    "type": "video"
+  },
+  "80": {
+    "id": 80,
+    "ext": "avi",
+    "type": "video"
+  },
+  "81": {
+    "id": 81,
+    "ext": "m2ts",
+    "type": "video"
+  },
+  "82": {
+    "id": 82,
+    "ext": "mts",
+    "type": "video"
+  },
+  "83": {
+    "id": 83,
+    "ext": "dif",
+    "type": "video"
+  },
+  "84": {
+    "id": 84,
+    "ext": "dv",
+    "type": "video"
+  },
+  "85": {
+    "id": 85,
+    "ext": "mkv",
+    "type": "video"
+  },
+  "86": {
+    "id": 86,
+    "ext": "mpg",
+    "type": "video"
+  },
+  "87": {
+    "id": 87,
+    "ext": "f4v",
+    "type": "video"
+  },
+  "88": {
+    "id": 88,
+    "ext": "flv",
+    "type": "video"
+  },
+  "89": {
+    "id": 89,
+    "ext": "mjpg",
+    "type": "video"
+  },
+  "90": {
+    "id": 90,
+    "ext": "mjpeg",
+    "type": "video"
+  },
+  "91": {
+    "id": 91,
+    "ext": "mxf",
+    "type": "video"
+  },
+  "92": {
+    "id": 92,
+    "ext": "mpeg",
+    "type": "video"
+  },
+  "93": {
+    "id": 93,
+    "ext": "mp4",
+    "type": "video"
+  },
+  "94": {
+    "id": 94,
+    "ext": "m4v",
+    "type": "video"
+  },
+  "95": {
+    "id": 95,
+    "ext": "mp4v",
+    "type": "video"
+  },
+  "96": {
+    "id": 96,
+    "ext": "mov",
+    "type": "video"
+  },
+  "97": {
+    "id": 97,
+    "ext": "swf",
+    "type": "video"
+  },
+  "98": {
+    "id": 98,
+    "ext": "wmv",
+    "type": "video"
+  },
+  "99": {
+    "id": 99,
+    "ext": "rm",
+    "type": "video"
+  },
+  "100": {
+    "id": 100,
+    "ext": "ogv",
+    "type": "video"
+  },
+  "101": {
+    "id": 101,
+    "ext": "indd",
+    "type": "document"
+  },
+  "102": {
+    "id": 102,
+    "ext": "indt",
+    "type": "document"
+  },
+  "103": {
+    "id": 103,
+    "ext": "incx",
+    "type": "document"
+  },
+  "104": {
+    "id": 104,
+    "ext": "wwcx",
+    "type": "document"
+  },
+  "105": {
+    "id": 105,
+    "ext": "doc",
+    "type": "document"
+  },
+  "106": {
+    "id": 106,
+    "ext": "docx",
+    "type": "document"
+  },
+  "107": {
+    "id": 107,
+    "ext": "dot",
+    "type": "document"
+  },
+  "108": {
+    "id": 108,
+    "ext": "dotx",
+    "type": "document"
+  },
+  "109": {
+    "id": 109,
+    "ext": "mdb",
+    "type": "document"
+  },
+  "110": {
+    "id": 110,
+    "ext": "mpp",
+    "type": "document"
+  },
+  "111": {
+    "id": 111,
+    "ext": "ics",
+    "type": "document"
+  },
+  "112": {
+    "id": 112,
+    "ext": "xls",
+    "type": "document"
+  },
+  "113": {
+    "id": 113,
+    "ext": "xlsx",
+    "type": "document"
+  },
+  "114": {
+    "id": 114,
+    "ext": "xlk",
+    "type": "document"
+  },
+  "115": {
+    "id": 115,
+    "ext": "xlsm",
+    "type": "document"
+  },
+  "116": {
+    "id": 116,
+    "ext": "xlt",
+    "type": "document"
+  },
+  "117": {
+    "id": 117,
+    "ext": "xltm",
+    "type": "document"
+  },
+  "118": {
+    "id": 118,
+    "ext": "csv",
+    "type": "document"
+  },
+  "119": {
+    "id": 119,
+    "ext": "tsv",
+    "type": "document"
+  },
+  "120": {
+    "id": 120,
+    "ext": "tab",
+    "type": "document"
+  },
+  "121": {
+    "id": 121,
+    "ext": "pps",
+    "type": "document"
+  },
+  "122": {
+    "id": 122,
+    "ext": "ppsx",
+    "type": "document"
+  },
+  "123": {
+    "id": 123,
+    "ext": "ppt",
+    "type": "document"
+  },
+  "124": {
+    "id": 124,
+    "ext": "pptx",
+    "type": "document"
+  },
+  "125": {
+    "id": 125,
+    "ext": "pot",
+    "type": "document"
+  },
+  "126": {
+    "id": 126,
+    "ext": "thmx",
+    "type": "document"
+  },
+  "127": {
+    "id": 127,
+    "ext": "pdf",
+    "type": "document"
+  },
+  "128": {
+    "id": 128,
+    "ext": "ps",
+    "type": "document"
+  },
+  "129": {
+    "id": 129,
+    "ext": "qxd",
+    "type": "document"
+  },
+  "130": {
+    "id": 130,
+    "ext": "rtf",
+    "type": "document"
+  },
+  "131": {
+    "id": 131,
+    "ext": "sxc",
+    "type": "document"
+  },
+  "132": {
+    "id": 132,
+    "ext": "sxi",
+    "type": "document"
+  },
+  "133": {
+    "id": 133,
+    "ext": "sxw",
+    "type": "document"
+  },
+  "134": {
+    "id": 134,
+    "ext": "odt",
+    "type": "document"
+  },
+  "135": {
+    "id": 135,
+    "ext": "ods",
+    "type": "document"
+  },
+  "136": {
+    "id": 136,
+    "ext": "ots",
+    "type": "document"
+  },
+  "137": {
+    "id": 137,
+    "ext": "odp",
+    "type": "document"
+  },
+  "138": {
+    "id": 138,
+    "ext": "otp",
+    "type": "document"
+  },
+  "139": {
+    "id": 139,
+    "ext": "epub",
+    "type": "document"
+  },
+  "140": {
+    "id": 140,
+    "ext": "dvi",
+    "type": "document"
+  },
+  "141": {
+    "id": 141,
+    "ext": "key",
+    "type": "document"
+  },
+  "142": {
+    "id": 142,
+    "ext": "keynote",
+    "type": "document"
+  },
+  "143": {
+    "id": 143,
+    "ext": "pez",
+    "type": "document"
+  },
+  "144": {
+    "id": 144,
+    "ext": "aac",
+    "type": "audio"
+  },
+  "145": {
+    "id": 145,
+    "ext": "m4a",
+    "type": "audio"
+  },
+  "146": {
+    "id": 146,
+    "ext": "au",
+    "type": "audio"
+  },
+  "147": {
+    "id": 147,
+    "ext": "aif",
+    "type": "audio"
+  },
+  "148": {
+    "id": 148,
+    "ext": "aiff",
+    "type": "audio"
+  },
+  "149": {
+    "id": 149,
+    "ext": "aifc",
+    "type": "audio"
+  },
+  "150": {
+    "id": 150,
+    "ext": "mp3",
+    "type": "audio"
+  },
+  "151": {
+    "id": 151,
+    "ext": "wav",
+    "type": "audio"
+  },
+  "152": {
+    "id": 152,
+    "ext": "wma",
+    "type": "audio"
+  },
+  "153": {
+    "id": 153,
+    "ext": "midi",
+    "type": "audio"
+  },
+  "154": {
+    "id": 154,
+    "ext": "oga",
+    "type": "audio"
+  },
+  "155": {
+    "id": 155,
+    "ext": "ogg",
+    "type": "audio"
+  },
+  "156": {
+    "id": 156,
+    "ext": "ra",
+    "type": "audio"
+  },
+  "157": {
+    "id": 157,
+    "ext": "vox",
+    "type": "audio"
+  },
+  "158": {
+    "id": 158,
+    "ext": "voc",
+    "type": "audio"
+  },
+  "159": {
+    "id": 159,
+    "ext": "7z",
+    "type": "archive"
+  },
+  "160": {
+    "id": 160,
+    "ext": "arj",
+    "type": "archive"
+  },
+  "161": {
+    "id": 161,
+    "ext": "bz2",
+    "type": "archive"
+  },
+  "162": {
+    "id": 162,
+    "ext": "cab",
+    "type": "archive"
+  },
+  "163": {
+    "id": 163,
+    "ext": "gz",
+    "type": "archive"
+  },
+  "164": {
+    "id": 164,
+    "ext": "gzip",
+    "type": "archive"
+  },
+  "165": {
+    "id": 165,
+    "ext": "iso",
+    "type": "archive"
+  },
+  "166": {
+    "id": 166,
+    "ext": "lha",
+    "type": "archive"
+  },
+  "167": {
+    "id": 167,
+    "ext": "sit",
+    "type": "archive"
+  },
+  "168": {
+    "id": 168,
+    "ext": "tgz",
+    "type": "archive"
+  },
+  "169": {
+    "id": 169,
+    "ext": "jar",
+    "type": "archive"
+  },
+  "170": {
+    "id": 170,
+    "ext": "rar",
+    "type": "archive"
+  },
+  "171": {
+    "id": 171,
+    "ext": "tar",
+    "type": "archive"
+  },
+  "172": {
+    "id": 172,
+    "ext": "zip",
+    "type": "archive"
+  },
+  "173": {
+    "id": 173,
+    "ext": "gpg",
+    "type": "archive"
+  },
+  "174": {
+    "id": 174,
+    "ext": "htm",
+    "type": "code"
+  },
+  "175": {
+    "id": 175,
+    "ext": "html",
+    "type": "code"
+  },
+  "176": {
+    "id": 176,
+    "ext": "xhtml",
+    "type": "code"
+  },
+  "177": {
+    "id": 177,
+    "ext": "xht",
+    "type": "code"
+  },
+  "178": {
+    "id": 178,
+    "ext": "css",
+    "type": "code"
+  },
+  "179": {
+    "id": 179,
+    "ext": "less",
+    "type": "code"
+  },
+  "180": {
+    "id": 180,
+    "ext": "sass",
+    "type": "code"
+  },
+  "181": {
+    "id": 181,
+    "ext": "js",
+    "type": "code"
+  },
+  "182": {
+    "id": 182,
+    "ext": "json",
+    "type": "code"
+  },
+  "183": {
+    "id": 183,
+    "ext": "atom",
+    "type": "code"
+  },
+  "184": {
+    "id": 184,
+    "ext": "rss",
+    "type": "code"
+  },
+  "185": {
+    "id": 185,
+    "ext": "xml",
+    "type": "code"
+  },
+  "186": {
+    "id": 186,
+    "ext": "xsl",
+    "type": "code"
+  },
+  "187": {
+    "id": 187,
+    "ext": "xslt",
+    "type": "code"
+  },
+  "188": {
+    "id": 188,
+    "ext": "md",
+    "type": "code"
+  },
+  "189": {
+    "id": 189,
+    "ext": "markdown",
+    "type": "code"
+  },
+  "190": {
+    "id": 190,
+    "ext": "as",
+    "type": "code"
+  },
+  "191": {
+    "id": 191,
+    "ext": "fla",
+    "type": "code"
+  },
+  "192": {
+    "id": 192,
+    "ext": "eml",
+    "type": "code"
+  },
+  "193": {
+    "id": 193,
+    "ext": "text",
+    "type": "textfile"
+  },
+  "194": {
+    "id": 194,
+    "ext": "txt",
+    "type": "textfile"
+  },
+  "195": {
+    "id": 195,
+    "ext": "freeformblock",
+    "type": "block"
+  },
+  "196": {
+    "id": 196,
+    "ext": "textblock",
+    "type": "block"
+  },
+  "197": {
+    "id": 197,
+    "ext": "htmlblock",
+    "type": "block"
+  },
+  "198": {
+    "id": 198,
+    "ext": "textplusimageblock",
+    "type": "block"
+  },
+  "199": {
+    "id": 199,
+    "ext": "imageblock",
+    "type": "block"
+  },
+  "200": {
+    "id": 200,
+    "ext": "abtestblock",
+    "type": "block"
+  },
+  "201": {
+    "id": 201,
+    "ext": "dynamicblock",
+    "type": "block"
+  },
+  "202": {
+    "id": 202,
+    "ext": "stylingblock",
+    "type": "block"
+  },
+  "203": {
+    "id": 203,
+    "ext": "einsteincontentblock",
+    "type": "block"
+  },
+  "205": {
+    "id": 205,
+    "ext": "webpage",
+    "type": "asset"
+  },
+  "206": {
+    "id": 206,
+    "ext": "webtemplate",
+    "type": "asset"
+  },
+  "207": {
+    "id": 207,
+    "ext": "templatebasedemail",
+    "type": "message"
+  },
+  "208": {
+    "id": 208,
+    "ext": "htmlemail",
+    "type": "message"
+  },
+  "209": {
+    "id": 209,
+    "ext": "textonlyemail",
+    "type": "message"
+  },
+  "210": {
+    "id": 210,
+    "ext": "socialshareblock",
+    "type": "block"
+  },
+  "211": {
+    "id": 211,
+    "ext": "socialfollowblock",
+    "type": "block"
+  },
+  "212": {
+    "id": 212,
+    "ext": "buttonblock",
+    "type": "block"
+  },
+  "213": {
+    "id": 213,
+    "ext": "layoutblock",
+    "type": "block"
+  },
+  "214": {
+    "id": 214,
+    "ext": "defaulttemplate",
+    "type": "template"
+  },
+  "215": {
+    "id": 215,
+    "ext": "smartcaptureblock",
+    "type": "smartcaptureblock"
+  },
+  "216": {
+    "id": 216,
+    "ext": "smartcaptureformfieldblock",
+    "type": "smartcaptureformfieldblock"
+  },
+  "217": {
+    "id": 217,
+    "ext": "smartcapturesubmitoptionsblock",
+    "type": "smartcapturesubmitoptionsblock"
+  },
+  "218": {
+    "id": 218,
+    "ext": "slotpropertiesblock",
+    "type": "slotpropertiesblock"
+  },
+  "219": {
+    "id": 219,
+    "ext": "externalcontentblock",
+    "type": "externalcontentblock"
+  },
+  "220": {
+    "id": 220,
+    "ext": "ampscript",
+    "type": "codesnippetblock"
+  },
+  "221": {
+    "id": 221,
+    "ext": "rssfeedblock",
+    "type": "rssfeedblock"
+  },
+  "222": {
+    "id": 222,
+    "ext": "formstylingblock",
+    "type": "formstylingblock"
+  },
+  "223": {
+    "id": 223,
+    "ext": "referenceblock",
+    "type": "referenceblock"
+  },
+  "224": {
+    "id": 224,
+    "ext": "imagecarouselblock",
+    "type": "imagecarouselblock"
+  },
+  "225": {
+    "id": 225,
+    "ext": "customblock",
+    "type": "customblock"
+  },
+  "226": {
+    "id": 226,
+    "ext": "liveimageblock",
+    "type": "liveimageblock"
+  },
+  "227": {
+    "id": 227,
+    "ext": "livesettingblock",
+    "type": "livesettingblock"
+  },
+  "228": {
+    "id": 228,
+    "ext": "contentmap",
+    "type": "contentmap"
+  },
+  "230": {
+    "id": 230,
+    "ext": "jsonmessage",
+    "type": "asset"
+  },
+  "232": {
+    "id": 232,
+    "ext": "icemailformblock",
+    "type": "asset"
+  }
+}
