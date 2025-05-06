@@ -122,23 +122,33 @@ const utils = {
     fs.writeFileSync(fullname, content);
   },
   'asset_download': async function (url = null, folder_path = null, file_name = null) {
-    const fullname = `${folder_path}${path.sep}${file_name}`;
+    return new Promise((resolve, reject) => {
+      const fullname = `${folder_path}${path.sep}${file_name}`;
+      const file = fs.createWriteStream(fullname);
 
-    var file = fs.createWriteStream(fullname);
-    return https.get(url, function (response) {
-      response.pipe(file);
-      file.on('finish', function () {
-        file.close();  // close() is async, call cb after close completes.
-        utils.logger.info(`Downloaded asset '${file_name}'.`);
-        return true;
+      https.get(url, (response) => {
+        response.pipe(file);
+
+        file.on('finish', () => {
+          file.close(() => { // Ensure file.close() completes before resolving
+            utils.logger.info(`Downloaded asset '${file_name}'.`);
+            resolve();
+          });
+        });
+
+        file.on('error', (err) => {
+          fs.unlink(fullname, () => { // Ensure file.unlink() completes before rejecting
+            utils.logger.error(`Error downloading asset from ${url}:`, err);
+            reject(err);
+          });
+        });
+      }).on('error', (err) => {
+        fs.unlink(fullname, () => { // Ensure file.unlink() completes before rejecting
+          utils.logger.error(`Error downloading asset from ${url}:`, err);
+          reject(err);
+        });
       });
-    }).on('error', function (err) { // Handle errors
-      fs.unlink(fullname); // Delete the file async. (But we don't check the result)
-      utils.logger.error(err.message);
-      return false;
     });
-
-
   },
   'loadConfigFile': function(filePath, fileDescription) {
    if (!fs.existsSync(filePath)) {

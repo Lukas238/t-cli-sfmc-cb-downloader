@@ -189,7 +189,7 @@ async function init() {
 
    // ToDo: Make sure we download all files in this page and additional pages if needed.
 
-   folder_contents.items.forEach(item => {
+   await Promise.all(folder_contents.items.map(async item => {
      const ext = utils.get_asset_file_extension(item.assetType.id);
      var file_name = null;
 
@@ -213,19 +213,24 @@ async function init() {
      }
 
      // Download or write down the asset source data
-     switch (asset_source_type) {
-       case asset_source_content:
-         file_name = `${item.name}.${ext}`;
-         utils.asset_write(item.content, absoluteLocalPath, file_name);
-         break;
-       case asset_source_downloadable:
-         file_name = item.fileProperties.fileName; // this already includes the file ext
-         utils.asset_download(item.fileProperties.publishedURL, absoluteLocalPath, file_name);
-         break;
-     }
+     try {
+      switch (asset_source_type) {
+        case asset_source_content:
+          file_name = `${item.name}.${ext}`;
+          utils.asset_write(item.content, absoluteLocalPath, file_name); // No await needed, it's synchronous now
+          break;
+        case asset_source_downloadable:
+          file_name = item.fileProperties.fileName; // this already includes the file ext
+          await utils.asset_download(item.fileProperties.publishedURL, absoluteLocalPath, file_name);
+          break;
+      }
 
-     utils.logger.info(`Downloaded asset '${file_name}'.`);
-   });
+      utils.logger.info(`Downloaded asset '${file_name}'.`);
+    } catch (error) {
+      utils.logger.error(`Error processing asset '${item.name}':`, error);
+      // Handle the error appropriately (e.g., continue to the next item)
+    }
+    }));
 
  };
 
