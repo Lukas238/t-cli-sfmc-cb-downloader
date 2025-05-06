@@ -1,1 +1,1 @@
-Check if there is anything change to commit, if not, do nothing.
+- Handle pagination on assets download response
